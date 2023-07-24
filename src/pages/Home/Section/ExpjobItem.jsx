@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom"
+import { Link } from 'react-router-dom';
 
-const FreshjobItem = ({fjob}) => {
-    const { company_logo, company_name, position_name, location, id } = fjob
+const ExpjobItem = ({ejob}) => {
+    const { company_logo, company_name, position_name, location, id } = ejob
 
     return (
 
@@ -28,4 +28,4 @@ const FreshjobItem = ({fjob}) => {
     );
 };
 
-export default FreshjobItem;
+export default ExpjobItem;

@@ -12,7 +12,7 @@ const Freshjob = () => {
 
     return (
         <div>
-            <h2 className="text-center text-5xl font-semibold">Fresher Job</h2>
+            <h2 className="text-center text-5xl font-semibold">Fresher Jobs</h2>
             <div className='grid md:grid-cols-3 gap-8 justify-items-center mt-5'>
                 {
                     fjobs.map(fjob => <FreshjobItem
