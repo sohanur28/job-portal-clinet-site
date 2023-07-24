@@ -20,7 +20,7 @@ const ExpjobItem = ({ejob}) => {
                 </div>
             </div>
             <div className="gap-8">
-                <Link to={`/feature/${id}`}>
+                <Link>
                     <button className='text-white bg-violet-500 hover:bg-violet-700 px-5 py-2 mt-20 rounded '>Apply</button>
                 </Link>
             </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const NavBar = () => {
 
@@ -6,6 +7,8 @@ const NavBar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
+        
+        
     </>
 
     return (
@@ -28,7 +31,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                <li><Link to="/login">Login</Link></li>
                 </div>
             </div>
         </>
